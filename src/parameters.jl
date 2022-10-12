@@ -6,14 +6,14 @@ Get DICE2016 default Excel parameters. Returns a Dictionary with two keys,
 (component_name, parameter_name) and unshared (keys are parameter_name) parameter 
 values.
 """
-function getdice2016excelparameters(filename)
+function getdice2016excelparameters(DICE2016REDIT.xlsm)
     p_unshared = Dict{Tuple{Symbol, Symbol},Any}()
     p_shared = Dict{Symbol, Any}()
 
     T = 100
 
     #Open Excel File to Read Parameters from Excel Model
-    f = readxlsx(filename)
+    f = readxlsx(DICE2016REDIT.xlsm)
 
     #
     # SHARED PARAMETERS 
