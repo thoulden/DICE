@@ -19,7 +19,7 @@ PARAMETERS
         ifopt    Indicator where optimized is 1 and base is 0      /0/
 ** Preferences
         elasmu   Elasticity of marginal utility of consumption     /1.45 /
-        prstp    Initial rate of social time preference per year   /.015  /
+        prstp    Initial rate of social time preference per year   /.001  /
 ** Population and technology
         gama     Capital elasticity in production function        /.300    /
         pop0     Initial world population 2015 (millions)         /7403    /
